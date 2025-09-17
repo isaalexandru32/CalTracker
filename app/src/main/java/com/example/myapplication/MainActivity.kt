@@ -12,7 +12,7 @@ import com.example.myapplication.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-//test pull
+//test pull ghghgghfghfghfghdfghj
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
