@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name of the item"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total number of calories (kcal)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etProt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total number of proteins"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etFats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total number of fats"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total number of cals"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+</LinearLayout>
